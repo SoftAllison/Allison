@@ -6,9 +6,10 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <header className="header">
+    <> 
+      <header className="header">
       <nav className="nav">
-        <Link className="nv-link" to="/">Home</Link>
+        <Link className="nv-link" to="/home">Home</Link>
         <Link className="nv-link" to="/dashboard">Dashboard</Link>
         <Link className="nv-link" to="/rh">RH</Link>
         <Link className="nv-link" to="/empresa">Empresa</Link>
@@ -16,7 +17,8 @@ function Navbar() {
         <Link className="nv-link" to="/sst">SST</Link>
         <Link className="nv-link" to="/configuracion">Configuración</Link>
       </nav>
-    </header>
+     </header>
+    </>      
   );
 }
 
