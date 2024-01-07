@@ -1,4 +1,4 @@
-import '../Anuncios/NuevoA.css'
+import '../Anuncios/AnunciosStyle.css'
 
 function NuevoAnuncio(props) {
         return(
