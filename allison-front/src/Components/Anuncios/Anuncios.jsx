@@ -34,23 +34,9 @@ function Anuncios() {
                  fecha='10 jul 2024'
                  />
 
-<NuevoAnuncio
-                 title='Programador'
-                 info='se necesita programador web con experiencia en jquery, html, css y js con minimo 4 años de experiencia'
-                 area='Marketing digital'
-                 fecha='10 jul 2024'
-                 
-                 
-                 />
 
-<NuevoAnuncio
-                 title='Programador'
-                 info='se necesita programador web con experiencia en jquery, html, css y js con minimo 4 años de experiencia'
-                 area='Marketing digital'
-                 fecha='10 jul 2024'
                  
-                 
-                 />
+            
             </div>
             )}
         </>

@@ -1,4 +1,6 @@
+/* eslint-disable react/prop-types */
 import '../Anuncios/AnunciosStyle.css'
+
 
 function NuevoAnuncio(props) {
         return(
