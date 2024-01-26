@@ -1,8 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 import { useState } from 'react';
-import '../Anuncios/AnunciosStyle.css'
-import NuevoAnuncio from '../Anuncios/NuevoAnuncio';
+import '../AnunciosB/AnunciosStyle.css'
+import NuevoAnuncio from '../AnunciosB/NuevoAnuncio';
 import { CiBellOn } from "react-icons/ci";
 
 
@@ -28,23 +28,22 @@ function Anuncios() {
              <div className='container'>
                  <p>Anuncios</p> 
                  <NuevoAnuncio
-                 title='Programador'
+                 title='hola'
                  info='se necesita programador web con experiencia en jquery, html, css y js con minimo 4 años de experiencia'
                  area='Marketing digital'
                  fecha='10 jul 2024'
                  />
-
-
-                 
-            
             </div>
             )}
         </>
         
     )
-
-      
-
 }
 
+
+
 export default Anuncios
+
+
+
+

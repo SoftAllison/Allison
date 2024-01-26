@@ -18,7 +18,9 @@
     margin-left: 20px;
     margin-right: 20px;
 }
-.nav a{
+.nav .nv-link{
+    letter-spacing: 0.5px;
+    align-items: center;
     position: relative;
     justify-content: center;
     display: flex;
@@ -28,7 +30,17 @@
    
   
 }
-.nav a::after {
+
+.nav .nv-link .nv-link-icon{
+    margin-left: 10px;
+}
+
+.nav .nv-link:hover{
+    transition: ease-in-out 100ms;
+    text-shadow: rgba(255, 255, 255, 0.54) 0px 0 20px;
+}
+
+.nav .nv-link::after {
     content: '';
     position: absolute;
     left: 0;
@@ -39,7 +51,7 @@
     transition: width 0.2s ease; 
   }
   
-.nav a:hover::after {
+.nav .nv-link:hover::after {
     left: -10%;
     width: 120%; 
 }
