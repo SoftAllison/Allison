@@ -14,6 +14,12 @@ function Anuncios() {
         setMostrarDiv(!mostrarDiv)
     }
 
+    const generarAnuncioProps = () => ({
+        title: '',
+        info: 'se necesita programador web con experiencia en jquery, html, css y js con minimo 4 años de experiencia',
+        area: 'Marketing digital',
+        fecha: '10 jul 2024',
+      });
 
     return(
 
@@ -27,12 +33,7 @@ function Anuncios() {
             mostrarDiv && (
              <div className='container'>
                  <p>Anuncios</p> 
-                 <NuevoAnuncio
-                 title='hola'
-                 info='se necesita programador web con experiencia en jquery, html, css y js con minimo 4 años de experiencia'
-                 area='Marketing digital'
-                 fecha='10 jul 2024'
-                 />
+                 <NuevoAnuncio {...generarAnuncioProps()}/>
             </div>
             )}
         </>
